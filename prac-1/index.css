@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+}
+button.myButton {
+  font-size: 20px;
+  margin: 12px 122px;
+  color: black;
+  background-color: rgb(255, 174, 237);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 30px;
+  transition: border-radius ease-in 3s;
+  transition: background-color ease-in 100ms;
+}
+button#myButton:hover {
+  background-color: #97ffb6;
+  border-radius: 7px;
+  transition: background-color ease-in 400ms;
+  transition: border-radius ease-out 100ms;
+}
